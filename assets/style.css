@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #ff8800;
+}
+#apresentacao{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 10px;
+}
+.btn-log{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 30px;
+    border: 0;
+    border-radius: 8px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    font-weight: bold;
+
+
+}
+#btn-face{
+    text-align: left;
+    color: #00968A;
+    float: bottom;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+#btn-twitter{
+    text-align: left;
+    color: #00968A;
+    float: bottom;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+#login-face{
+    display: auto;
+    height: 80px;
+    float: left
+    border-radius: 500px 500px 500px 500px;
+    border-radius: 60px 60px;
+    border: 3px inset #ff5454;
+}
+
+#login-twitter{
+    display: auto;
+    height: 80px;
+    float: right
+    border-radius: 550px 500px 500px 500px;
+    border-radius: 60px 60px;
+    border: 3px inset #ff5454;
+}
+#login{
+    width: 100%;
+    height: auto;
+    background: #000000;
+    border-radius: 15px;
+    padding: 4%;
+    float: left;
+    margin-left: 4%;
+    align-self: center;
+  
+}
+#login h2{
+    color: #00968A;
+    font-size: 1.0em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    width: 100%;
+    float: none;
+    height: 100%;
+}
+#login form{
+    width: 100%;
+    height: auto;
+    float: left;
+
+}
+label{
+    width: 100%;
+    margin-top: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    color:#333;
+    font-size: 0.8em;
+    float: left;
+}
+.campo-form{
+    width: 100%;
+    height: 40px;
+    border: 10px;
+    border-radius: 5px;
+    background: #000000;
+    text-indent: 8px;
+    outline: none;
+    border-color: red;
+    border-style: hidden;
+    border-width: 5px;
+}
+
+
+.campo-form::placeholder{
+    color: #999;
+    font-size: 0.8em;
+}
+#email{
+    margin-bottom: 20px;
+}
+small{
+    width: 100%;
+    float: center;
+}
+.btn-form{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 30px;
+    border: 0;
+    border-radius: 8px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    font-weight: bold;
+
+
+}
+#esqueceu{
+    text-align: right;
+    float: left;
+   color: #65e61b;
+    margin-bottom: 20px;
+}
+#conta{
+    float: left;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#btn-entrar{
+    background: #65e61b;
+    color:#ffffff;
+}
+#btn-cad{
+    background: #ebac00;
+    color:#f1f1f1;
+}
+
+@media mobile (min-width: 768px) and (max-width: 1024px){
+    body{
+        background: #00968A;
+    }
+    main{
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    #apresentacao{
+        width: 40%;
+        height: 400px;
+        float: left;
+        margin-left: 5%;
+    }
+    #login{
+        width: 40%;
+        height: auto;
+        float: left;
+        margin-right: 5%;
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
+    #login-pc{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        background: #00968A;
+        float: left;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    #login-cel{
+        display: none;
+    }
+}
